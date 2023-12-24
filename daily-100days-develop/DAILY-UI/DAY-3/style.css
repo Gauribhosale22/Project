@@ -1,0 +1,605 @@
+/* COMMON CSS FOR FONTS AND ALL */
+body {
+  /* font-family: "lato", sans-serif; */
+  /* background-color: skyblue; */
+}
+
+/* COMMON CSS FOR FONTS AND ALL */
+/* COMMON CLASS */
+.d-flex {
+  display: flex;
+}
+
+.d-grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.dsp-none {
+  display: none;
+}
+
+.min-container {
+  max-width: 427px;
+  margin: 0 auto;
+}
+
+.container-mobile {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.layContainer {
+  max-width: 1770px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+/* COMMON CLASS */
+/*  DAY 2 UI CHALLENGE START HERE */
+
+/* HEADER CSS */
+.headerSection {
+  position: fixed;
+  top: 25px;
+  width: 100%;
+}
+
+.headerSection .headerSection__wrapper {
+  /* margin-top: 45px; */
+  justify-content: space-between;
+  /* position: fixed;
+  width: calc(100% - 150px); */
+  align-items: center;
+  z-index: 1;
+}
+
+.headerSection .headerSection__wrapper .headerSection__left {
+  /* margin-left: 74px; */
+  width: 50%;
+  justify-content: space-around;
+}
+
+.headerSection .headerSection__wrapper .headerSection__right {
+  /* margin-right: 74px; */
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.headerSection .headerSection__wrapper .headerSection__ul {
+  list-style-type: none;
+  gap: 65px;
+  align-items: center;
+  /* margin-left: 217px; */
+}
+
+.headerSection .headerSection__wrapper .headerSection__ul .headerSection__list {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.headerSection__accountInfoSection .headerSection__search {
+  padding-right: 34px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.headerSection__accountInfoSection .headerSection__account {
+  margin-left: 31px;
+}
+
+.headerSection__accountInfoSection .headerSection__cart {
+  margin-left: 31px;
+}
+
+.headerSection__accountInfoSection .headerSection__cart .headerSection__cart-circle {
+  width: 48px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.headerSection__accountInfoSection {
+  align-items: center;
+  padding-right: 25px;
+}
+
+.headerSection__mobile-hamBurger {
+  display: none;
+}
+
+/* HEADER CSS */
+/* BANNER CSS */
+.bannerSection {
+  height: 100vh;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide,
+.bannerSection .bannerSection__wrapper .bannerSection__rightSide {
+  width: 50%;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide {
+  position: relative;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__text {
+  width: 681px;
+  height: max-content;
+  position: absolute;
+  top: 30%;
+  margin-left: 75px;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc {
+  position: absolute;
+  bottom: 0;
+  margin-left: 75px;
+  margin-bottom: 75px;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__rightSide {
+  min-height: 895px;
+}
+
+.bannerSection__wrapper .bannerSection__rightSide .bannerSection__rightSide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__text h1 {
+  font-family: 'New York Large';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 108px;
+  color: #000000;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc p {
+  font-family: 'New York Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 144%;
+  color: #6A6161;
+  width: 437px;
+  height: max-content;
+  text-align: left;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__leftSide-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc .bannerSection__20x20Image {
+  margin-top: 41px;
+  text-align: left;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc .bannerSection__20x20Image img {
+  width: 61px;
+  height: 61px;
+}
+
+/* BANNER CSS */
+/* HEADER SECOND VERSION CSS */
+.headerSection-v2 {
+  top: 0;
+  border: 1px solid #E2E2E2;
+  background-color: #FFFFFF;
+  position: sticky;
+  width: unset;
+}
+
+.headerSection-v2 .headerSection__wrapper-v2 {
+  padding: 10px 74px;
+}
+
+.headerSection-v2 .headerSection__wrapper-v2 .headerSection__cart .headerSection__cart-circle {
+  background: #F1EADC;
+}
+
+/* HEADER SECOND VERSION CSS */
+/* NEWS EDITORIAL SECTION CSS */
+/* .newsEditorialSection {
+  height: max-content;
+} */
+
+.newsEditorialSection .newsEditorialSection__title {
+  text-align: center;
+  margin: 84px 0 0 0;
+}
+
+.newsEditorialSection .newsEditorialSection__title .newsEditorialSection__title-h1 {
+  font-family: 'New York Large';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.newsEditorialSection__cardSection {
+  justify-content: space-around;
+  margin: 84px 0;
+}
+
+.newEditorialSection__card.midCard {
+  width: 575px;
+  height: max-content;
+}
+
+.newEditorialSection__card.midCard .newEditorialSection__card-image {
+  height: 755px;
+  width: 575px;
+}
+
+.newEditorialSection__card .newEditorialSection__card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.newEditorialSection__card.startCard,
+.newEditorialSection__card.endCard {
+  width: 430px;
+  height: max-content;
+}
+
+.newEditorialSection__card.startCard .newEditorialSection__card-image,
+.newEditorialSection__card.endCard .newEditorialSection__card-image {
+  width: 430px;
+  height: max-content;
+}
+
+.newEditorialSection__card .newEditorialSection__card-title {
+  margin-top: 32px;
+}
+
+.newEditorialSection__card .newEditorialSection__card-title h4 {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.newsEditorialSection__card-desc {
+  margin-top: 22px;
+}
+
+.newsEditorialSection__card-desc p {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #606060;
+}
+
+.newsEditorialSection__card-tag {
+  margin-top: 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+.newsEditorialSection__card-tag .tag-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  color: #000000;
+}
+
+.newsEditorialSection__card-tag .tag-border {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 114%;
+  letter-spacing: 0.08em;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+}
+
+.newsEditorialSection__quoteText {
+  margin-top: 32px;
+}
+
+.newsEditorialSection__quoteText p {
+  font-family: 'New York Small';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 138%;
+  text-align: center;
+  color: #000000;
+}
+
+.newsEditorialSection__button {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.newsEditorialSection__button .newsEditorialSection__button-btn {
+  border: 1px solid #000000;
+  padding: 22px 35px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* NEWS EDITORIAL SECTION CSS */
+/* BRAND SECTION CSS */
+.brandSection {
+  border: 1px solid #E2E2E2;
+  padding: 140px 0 90px 0;
+}
+
+.brandSection__tagline {
+  width: 735px;
+  margin: 0 auto;
+}
+
+.brandSection__tagline .brandSection__tagline-h3 {
+  font-family: 'New York Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+
+.bransSection__companyLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 110px;
+}
+
+/* BRAND SECTION CSS */
+/* GRAM SECTION CSS */
+.gramSliderSection .gramSliderSection__wrapper {
+  padding: 73px 75px 92px 75px;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.gramSliderSection .gramSliderSection__wrapper .gramSliderSection__wrapper-inside {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gramSliderSection .gramSliderSection__wrapper-button {
+  align-items: center;
+  border: 1px solid #000000;
+  gap: 45px;
+  padding: 15px 19px 15px 28px;
+}
+
+.gramSliderSection .gramSliderSection__wrapper-title {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.gramSliderSection .gramSliderSection__wrapper-button .gramSliderSection__wrapper-button-txt {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.gramSliderSection .gramSliderSection__slider {
+  gap: 25px;
+  margin-top: 72px;
+}
+
+.gramSliderSection .gramSliderSection__slider .gramSliderSection__item {
+  width: 100%;
+  height: 100%;
+}
+
+.gramSliderSection .gramSliderSection__slider .gramSliderSection__item .gramSliderSection__item-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* GRAM SECTION CSS */
+/* FOOTER SECTION CSS */
+.footerSection__wrapper {
+  padding: 48px 0;
+}
+
+.footerSection__wrapper .footerSection__emailSection {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerSection__emailSection .footerSection__emailSection__text h6 {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footerSection__emailSection .footerSection__emailSection__text span {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  color: #6A6161;
+}
+
+.footerSection__emailSection__input {
+  position: relative;
+}
+
+.footerSection__emailSection__input label {
+  align-items: center;
+}
+
+.footerSection__emailSection-input {
+  width: 511.21px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 21px 26px;
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+  z-index: -1;
+}
+
+.footerSection__emailSection-input::placeholder {
+  color: #000000;
+}
+
+.footerSection__emailSection-arrow {
+  position: absolute;
+  right: 15px;
+}
+
+.footerSection__emailSection-smile {
+  margin-right: 9px;
+  width: 14px;
+  height: 14px;
+}
+
+.footerSection__emailSection__text .d-flex {
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.footerSection__mainSection {
+  background-color: #FFF6F4;
+  /* height: 613px; */
+  padding: 95px 95px 60px 95px;
+}
+
+.footerSection__mainSection .footerSection__mainInside {
+  justify-content: space-between;
+}
+
+.footerSection__mainSection__image {
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+}
+
+.footerSection__mainSection__menuSection {
+  gap: 54px;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title h3,
+.footerSection__mainSection__addressSection .footerSection__addressSection h3 {
+  margin-bottom: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title ul li {
+  margin-bottom: 5px;
+}
+
+.footerSection__mainSection__addressSection {
+  gap: 140px;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title ul li {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 222%;
+  color: #6A6161;
+}
+
+.footerSection__mainSection__addressSection .footerSection__addressSection p {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #606060;
+}
+
+.footerSection__social {
+  margin-top: 96px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerSection__social-img {
+  gap: 10px;
+}
+
+.footerSection__social-img img {
+  width: 15px;
+  height: 15px;
+}
+
+.footerSection__social .footerSeciton__copyRightTxt p {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6A6161;
+}
+
+/* FOOTER SECTION CSS */
+
+/*  DAY 2 UI CHALLENGE END HERE */
